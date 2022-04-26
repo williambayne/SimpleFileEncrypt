@@ -6,7 +6,6 @@ def Encrypt(filename, key):
     data = bytearray(data)
     for index, value in enumerate(data):
         data[index] = value ^ key
-
     #file = open("Encrypt_" + filename, "wb") #Will create a copy of the original that is encrypted.
     file = open(filename, "wb") #Will overwrite original file with encryted version.
     file.write(data)
