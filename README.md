@@ -7,6 +7,12 @@ Make sure you keep back ups of files you encrypt. Included are two ways to encry
 
 To run as an application the .exe file should be placed in the folder containing the file(s) you wish to encrypt.
 
+To create an .exe file in terminal and install pyinstaller:
+
+1. pip install pyinstaller
+2. pyinstaller main.py --onefile
+3. main.exe is located in new dist folder
+
 Note: To encrypt multiple files simply add the files to a .zip folder and then encrypt.
 
 Disclaimer: Use at your own risk.
