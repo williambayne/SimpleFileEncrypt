@@ -7,7 +7,7 @@ def Encrypt(filename, key):
     for index, value in enumerate(data):
         data[index] = value ^ key
     #file = open("Encrypt_" + filename, "wb") #Will create a copy of the original that is encrypted.
-    file = open(filename, "wb") #Will overwrite original file with encryted version.
+    file = open(filename, "wb") #Will overwrite original file with encrypted version.
     file.write(data)
     file.close()
     print("***File Successfully Encrypted.***")
