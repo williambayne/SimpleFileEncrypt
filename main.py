@@ -27,7 +27,7 @@ def Decrypt(filename, key):
 
 choice = " "
 while choice != "3":
-    print("Please select your option:")
+    print("Please select an option:")
     print("1. Encrypt")
     print("2. Decrypt")
     print("3. Exit")
